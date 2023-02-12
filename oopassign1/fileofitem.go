@@ -28,25 +28,25 @@ func SearchItemsByName(name string) []Item {
 	return result
 }
 
-func FilterItemsByPrice(price float64) []Item {
-	var result []Item
-	for _, item := range Items {
-		if item.Price <= price {
-			result = append(result, item)
-		}
-	}
-	return result
-}
+//func FilterItemsByPrice(price float64) []Item {
+//	var result []Item
+//	for _, item := range Items {
+//		if item.Price <= price {
+//			result = append(result, item)
+//		}
+//	}
+//	return result
+//}
 
-func FilterItemsByRating(rating float64) []Item {
-	var result []Item
-	for _, item := range Items {
-		if item.Rating >= rating {
-			result = append(result, item)
-		}
-	}
-	return result
-}
+//func FilterItemsByRating(rating float64) []Item {
+//	var result []Item
+//	for _, item := range Items {
+//		if item.Rating >= rating {
+//			result = append(result, item)
+//		}
+//	}
+//	return result
+//}
 
 func GiveRating(name string, rating float64) {
 	for i := range Items {
