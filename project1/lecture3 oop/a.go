@@ -84,7 +84,7 @@ func main() {
 	s.Push(30)
 	s.Increment()
 	s.PrintAll()
-	s.ReversePrint()
+	s.Reverse()
 	//fmt.Println(s.Peek())
 	//fmt.Println(s.Contains())
 	//fmt.Println(s.Peek())

@@ -9,7 +9,6 @@ func main() {
 	fmt.Println("\033[1;33mWelcome to Jateq's market\033[0m")
 	LoadDataFromJSON("users.json", &Users)
 	LoadDataFromJSON("items.json", &Items)
-
 	fmt.Println("Do you have an account? (y or n)")
 	var input, username, password, corrector string
 	for true {
